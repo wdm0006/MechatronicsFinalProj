@@ -9,7 +9,7 @@ char keys[4][3] = {
   {'1','2','3'},
   {'4','5','6'},
   {'7','8','9'},
-  {'#','0','*'}
+  {'A','B','C'}
 };
 
 Keypad kpd=Keypad(makeKeymap(keys),rowPins,colPins,4,3);
@@ -48,5 +48,5 @@ void loop()
       mydata.player=1;
     }
   }
-  delay(1000);
+  delay(100);
 }
